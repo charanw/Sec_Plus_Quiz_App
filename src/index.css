@@ -94,20 +94,28 @@ header h1 {
 }
 
 #question progress {
-  width: 50%;
-  height: 0.5rem;
+  width: 80%;
+  height: 0.75rem;
   border-radius: 24px;
-  background: #9e5ef8;
+  background: white;
+  color: #2abb7f;
   margin: 0;
 }
 
 #question progress::-webkit-progress-bar {
-  background: #6a558a;
+  background: white;
+  color: #2abb7f;
   border-radius: 24px;
 }
 
 #question progress::-webkit-progress-value {
-  background: #9e5ef8;
+  background: white;
+  color: #2abb7f;
+  border-radius: 24px;
+}
+
+#question progress::-moz-progress-bar {
+  background: #2abb7f;
   border-radius: 24px;
 }
 
@@ -171,13 +179,20 @@ header h1 {
 
 .answer button.selected {
   /* background: linear-gradient(180deg, #fbda81 0%, #f8b173 100%); */
-  background: #f5a76c;
+  border: 5px solid #2abb7f;
   color: #2c203d;
+}
+
+.answer button.selected:hover {
+  /* background: linear-gradient(180deg, #bf48f6 0%, #9b50f2 100%); */
+  background: white;
+  color: #2abb7f;
+  /* box-shadow: 0 0 4px 2px rgba(255, 200, 60, 0.8); */
 }
 
 .answer button.correct {
   /* background: linear-gradient(180deg, #a1fa61 0%, #52d482 100%); */
-  background: #5af59d;
+  background: #2abb7f;
   color: #2c203d;
 }
 
