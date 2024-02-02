@@ -148,7 +148,7 @@ header h1 {
 
 .answer button {
   display: inline-block;
-  color: #ffffff;
+  color: #216e4e;
   width: 100%;
   font-family: sans-serif;
   font-size: 0.9rem;
@@ -157,7 +157,7 @@ header h1 {
   border: none;
   border-radius: 24px;
   /* background: linear-gradient(180deg, #81f1fb 0%, #73d2f8 100%); */
-  background: #216e4e;
+  background: #ffffff;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
 }
