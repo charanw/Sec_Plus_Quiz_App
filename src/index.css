@@ -37,7 +37,6 @@ header {
 
 header img {
   max-width: min(8vw, 4rem);
-  margin-right: 1rem;
 }
 
 header h1 {
