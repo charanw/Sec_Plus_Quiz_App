@@ -13,7 +13,7 @@ export default function Question({QUESTIONS, questionIndex, onSelectAnswer, onSk
     let timer = 60000;
 
     if (answer.selectedAnswer) {
-        timer = 1000;
+        timer = 500;
     }
 
     if (answer.isCorrect !== null) {
@@ -35,7 +35,7 @@ export default function Question({QUESTIONS, questionIndex, onSelectAnswer, onSk
             setTimeout(() => {
                 onSelectAnswer(answer);
             }, 2000)
-        }, 1000)
+        }, 500)
     }
 
     let answerState = '';
