@@ -6,10 +6,10 @@
 }
 
 html {
-  font-family: "Sixtyfour", sans-serif;
-  line-height: 1.5;
+  font-family: Orbitron, sans-serif;
+  line-height: normal;
 
-  color: #2abb7f;
+  color: black;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -301,6 +301,7 @@ button.selected:hover {
   margin: auto;
   padding-bottom: 1.5rem;
   border-bottom: 4px dashed black;
+  line-height: 1.5;
 }
 
 #summary-stats p {

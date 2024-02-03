@@ -48,6 +48,7 @@ export default function Question({QUESTIONS, questionIndex, onSelectAnswer, onSk
 
     return (
         <div id="question">
+        <span>Question {questionIndex + 1}/{QUESTIONS.length}</span>
         <h2>{QUESTIONS[questionIndex].question}</h2>
         <Answers
         answers={QUESTIONS[questionIndex].options} 

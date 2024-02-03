@@ -147,7 +147,7 @@ export default [
       "A strong password should be complex, including a combination of uppercase and lowercase letters, numbers, and symbols, making it more resistant to password attacks.",
   },
   {
-    id: "q12",
+    id: "q13",
     question:
       "What is the primary purpose of an IDS (Intrusion Detection System)?",
     options: [
@@ -162,7 +162,7 @@ export default [
       "An IDS monitors network traffic to identify and respond to potential security incidents or unauthorized access by analyzing patterns and behaviors.",
   },
   {
-    id: "q13",
+    id: "q14",
     question:
       "What type of attack involves an attacker intercepting communication between two parties without their knowledge?",
     options: [
@@ -176,7 +176,7 @@ export default [
       "In a Man-in-the-Middle attack, the attacker secretly intercepts and relays communication between two parties, potentially gaining unauthorized access or stealing sensitive information.",
   },
   {
-    id: "q14",
+    id: "q15",
     question:
       "Which cryptographic algorithm is commonly used for digital signatures?",
     options: ["MD5", "AES", "RSA", "SHA-1"],
@@ -185,7 +185,7 @@ export default [
       "RSA (Rivest-Shamir-Adleman) is commonly used for digital signatures and asymmetric encryption, providing a secure way to verify the authenticity and integrity of digital messages.",
   },
   {
-    id: "q15",
+    id: "q16",
     question:
       "What is the purpose of a security token in multi-factor authentication?",
     options: [
@@ -199,7 +199,7 @@ export default [
       "A security token generates random access codes as part of multi-factor authentication, requiring users to provide something they know (password) and something they have (token) for access.",
   },
   {
-    id: "q16",
+    id: "q17",
     question:
       "What is the primary goal of risk management in the context of cybersecurity?",
     options: [
@@ -213,7 +213,7 @@ export default [
       "The goal of risk management is to identify, assess, and minimize risks to an acceptable level by implementing appropriate controls and measures.",
   },
   {
-    id: "q17",
+    id: "q18",
     question:
       "Which security principle focuses on ensuring that individuals have the right level of access to resources needed for their job functions?",
     options: [
@@ -227,7 +227,7 @@ export default [
       "Least Privilege principle ensures that individuals are granted the minimum level of access necessary to perform their job functions, reducing the risk of unauthorized access.",
   },
   {
-    id: "q18",
+    id: "q19",
     question: "What is the purpose of penetration testing in cybersecurity?",
     options: [
       "Vulnerability assessment",
@@ -238,5 +238,19 @@ export default [
     correct_answer: "Vulnerability assessment",
     explanation:
       "Penetration testing involves simulating cyberattacks to identify vulnerabilities in a system or network, allowing organizations to address and remediate potential weaknesses.",
+  },
+  {
+    id: "q20",
+    question:
+      "Which of the following is a common technique used in protecting wireless network security?",
+    options: [
+      "ARP poisoning",
+      "MAC address filtering",
+      "SQL injection",
+      "DNS spoofing",
+    ],
+    correct_answer: "MAC address filtering",
+    explanation:
+      "MAC address filtering is a technique used to enhance wireless network security by allowing or denying access based on the unique hardware address of a device. It helps control which devices can connect to the wireless network.",
   },
 ];
