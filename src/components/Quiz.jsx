@@ -2,11 +2,11 @@ import { useState, useCallback } from 'react';
 
 import Question from './Question.jsx';
 
-export default function Quiz({ onQuizComplete }) {
+export default function Quiz({ QUESTIONS, onQuizComplete }) {
     const [userAnswers, setUserAnswers] = useState([]);
 
     const activeQuestionIndex = userAnswers.length;
-    const quizComplete = activeQuestionIndex === 3;
+    const quizComplete = activeQuestionIndex === QUESTIONS.length;
 
     const handleSelectAnswer = useCallback(function handleSelectAnswer(selectedAnswer) {
         setUserAnswers((prevUserAnswers) => {
@@ -27,6 +27,7 @@ return (
         questionIndex= {activeQuestionIndex}
         onSelectAnswer = {handleSelectAnswer}
         onSkipAnswer = {handleSkipAnswer}
+        QUESTIONS = {QUESTIONS}
         />
     </div>
     );

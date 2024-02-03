@@ -1,7 +1,6 @@
 import quizCompleteImg from '../assets/quiz-complete.svg'
-import QUESTIONS from '../questions.js';
 
-export default function Summary({ userAnswers, onRetry }) {
+export default function Summary({ QUESTIONS, userAnswers, onRetry }) {
 
     const skippedAnswers = userAnswers.filter(answer => answer == null);
     const correctAnswers = userAnswers.filter((answer, index) => answer === QUESTIONS[index].correct_answer);
