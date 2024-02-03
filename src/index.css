@@ -347,6 +347,15 @@ button.selected:hover {
   color: black;
 }
 
+#author {
+  color: white;
+  margin: auto;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @keyframes slide-in-from-bottom {
   0% {
     opacity: 0;

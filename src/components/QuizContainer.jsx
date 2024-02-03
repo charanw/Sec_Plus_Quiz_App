@@ -26,6 +26,7 @@ export default function QuizContainer() {
       ) : (
         <Summary QUESTIONS = { shuffledQUESTIONS } onRetry={handleRetry} userAnswers = {userAnswers} />
       )}
+      <span id = "author">Created by Charan Williams, February 2024</span>
     </div>
   );
 }
