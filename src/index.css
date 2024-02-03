@@ -79,21 +79,21 @@ header h1 {
   margin-top: 2.5rem;
 }
 
-#question progress::-webkit-progress-bar {
+#question progress {
   background: white;
-  color: #2abb7f;
   border-radius: 24px;
 }
 
-#question progress::-webkit-progress-value {
+#question progress::-webkit-progress-bar {
   background: white;
-  color: #2abb7f;
-  border-radius: 24px;
+}
+
+#question progress::-webkit-progress-value {
+  background: #2abb7f;
 }
 
 #question progress::-moz-progress-bar {
   background: #2abb7f;
-  border-radius: 24px;
 }
 
 #question progress.answered,
