@@ -1,3 +1,5 @@
+//Questions and answers generated using ChatGPT v3.5
+
 export default [
   {
     id: "q1",

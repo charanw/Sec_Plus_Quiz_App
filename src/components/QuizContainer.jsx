@@ -3,11 +3,12 @@ import React, { useState, useCallback } from 'react';
 import QUESTIONS from '../questions.js';
 import Quiz from './Quiz.jsx';
 import Summary from './Summary.jsx';
+import shuffleArray from '../shuffleArray.js';
 
 export default function QuizContainer() {
   const [showQuiz, setShowQuiz] = useState(true);
   const [userAnswers, setUserAnswers] = useState([]);
-  const shuffledQUESTIONS = [...QUESTIONS].sort(() => Math.random());
+  const shuffledQUESTIONS = shuffleArray([...QUESTIONS]);
 
   const handleRetry = useCallback(() => {
     setShowQuiz(true);
