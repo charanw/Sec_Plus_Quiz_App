@@ -1,5 +1,5 @@
 import Header from './components/Header.jsx';
-import Quiz from './components/Quiz.jsx';
+import QuizContainer from './components/QuizContainer';
 
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
      <>
      <Header />
      <main>
-     <Quiz />
+     <QuizContainer />
      </main>
     </>
      );
