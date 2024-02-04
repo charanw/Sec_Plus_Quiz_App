@@ -1,4 +1,4 @@
-import quizCompleteImg from '../assets/quiz-complete.svg'
+import quizCompleteImg from '../assets/quiz-complete.webp'
 
 export default function Summary({ QUESTIONS, userAnswers, onRetry }) {
 
